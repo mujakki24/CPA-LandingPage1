@@ -277,6 +277,126 @@ footer{
     cursor: pointer;
 }
 
+.btn a {
+    /* padding: 12px 100px;
+    border: 2px solid white;
+    background-color: brown; */
+    color: white;
+    /* margin: 10px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    cursor: pointer; */
+    text-decoration: none;
+}
+
 .center{
     text-align: center;
+}
+
+
+
+
+
+#policy-home::before {
+    content: "";
+    /* background: url('../bg1.jpg') no-repeat center center/cover; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#policy-home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    height: 1800px;
+    justify-content: center;
+    align-items: center;
+}
+
+#policy-home h1 {
+    color: grey;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#policy p {
+    color: grey;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+}
+
+
+#disclaimer-home::before {
+    content: "";
+    /* background: url('../bg1.jpg') no-repeat center center/cover; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#disclaimer-home h1 {
+    color: grey;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#disclaimer-home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}
+
+#disclaimer p {
+    color: grey;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#tc-home::before {
+    content: "";
+    /* background: url('../bg1.jpg') no-repeat center center/cover; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#tc-home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    height: 2900px;
+    justify-content: center;
+    align-items: center;
+}
+
+#tc-home h1 {
+    color: grey;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#tc p {
+    color: grey;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
 }
